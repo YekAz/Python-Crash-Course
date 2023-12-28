@@ -1,12 +1,12 @@
-# def generate_squares(start, end):
-#     number = []
-#     for square in range(start, end + 1):
-#         squares = square ** 2
-#         number.append(squares)
-#     return number
+def generate_squares(start, end):
+    number = []
+    for square in range(start, end + 1):
+        squares = square ** 2
+        number.append(squares)
+    return number
 
-# set = generate_squares(3,9)
-# print(set)
+set = generate_squares(3,9)
+print(set)
 
 
 # Example usage:
