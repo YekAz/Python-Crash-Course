@@ -1,3 +1,5 @@
+# Looping through keys and value in a dictionary
+
 user_0 = {
     'username': 'yekaz',
     'first': 'azeez',
@@ -9,6 +11,7 @@ for key, value in user_0.items():
     print(f"value: {value}")
 
 ###############################################
+    # Looping through keys only in a dictionary
 
 fav_numbers = {
     'azeez': 10,
